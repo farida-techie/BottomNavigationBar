@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/myView"
+    tools:context=".MainActivity">
+    <!--ok now run it-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="12dp"
+        android:elevation="15dp"
+        android:gravity="center"
+        android:background="@drawable/bottom_shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true">
+        <ImageButton
+            android:id="@+id/home"
+            android:src="@drawable/ic_pink_home"
+            android:background="#96FBF2"
+            android:onClick="addFragOnClick"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+        <ImageButton
+            android:id="@+id/seachBtn"
+            android:src="@drawable/ic_search"
+            android:background="#96FBF2"
+            android:onClick="addFragOnClick"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+        <ImageButton
+            android:id="@+id/addBtn"
+            android:src="@drawable/ic_add"
+            android:background="#96FBF2"
+            android:onClick="addFragOnClick"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+        <ImageButton
+            android:id="@+id/notifiyBtn"
+            android:src="@drawable/ic_notifications"
+            android:background="#96FBF2"
+            android:onClick="addFragOnClick"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+        <ImageButton
+            android:id="@+id/profileBtn"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_account_bl"
+            android:background="#96FBF2"
+            android:onClick="addFragOnClick"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
